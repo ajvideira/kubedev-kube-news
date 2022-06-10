@@ -72,7 +72,7 @@ kind: Service
 metadata:
   name: kubenews
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     app: kubenews
   ports:
