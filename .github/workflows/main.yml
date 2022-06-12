@@ -48,4 +48,4 @@ jobs:
         uses: Azure/k8s-deploy@v3.1
         with:
           images: ajvideira/kube-news:${{github.run_number}}
-          manifests: ./src/k8s/deployment.yaml
+          manifests: ./k8s/deployment.yaml
